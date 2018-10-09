@@ -82,6 +82,10 @@ public:
             Preorder(root1->right);
         }
     }
+	void Pre0rder()
+	{
+		Preorder(root);
+	}
 	
 };
 
@@ -96,7 +100,7 @@ int main(int argc, char const *argv[])
         cin>> val;
         myTree.insert(val);
     }
-    myTree.Preorder();
+    myTree.Pre0rder();
     return 0;
 }
 
