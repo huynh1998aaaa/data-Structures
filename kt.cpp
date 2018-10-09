@@ -34,7 +34,10 @@ class tree
 private:
 	TreeNode* root;
 public:
-	tree();
+	tree(){
+	r
+	}
+	
 	void insert(int value)
 	{
 		if(this->root==NULL)
